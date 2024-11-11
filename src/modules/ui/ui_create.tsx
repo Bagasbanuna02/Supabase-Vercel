@@ -29,7 +29,6 @@ export function UiCreate() {
   });
 
   const [selectType, setSelectType] = useState<ITypeOfProduct[]>([]);
-  console.log(selectType, "ini state");
 
   useShallowEffect(() => {
     onLoadType({
